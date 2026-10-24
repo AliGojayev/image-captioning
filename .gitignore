@@ -1,0 +1,19 @@
+# Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Downloaded data, pretrained weights, and generated features
+/data/
+/checkpoints/
+/features/
+/runs/
+*.pt
+*.pth
+
+# Local credentials
+.env
+.env.*
+!.env.example
