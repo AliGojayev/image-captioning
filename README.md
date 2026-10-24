@@ -1,6 +1,6 @@
 # Image Captioning
 
-An educational image-captioning project in PyTorch, planned around a frozen VGG-16 image encoder and a trainable LSTM caption decoder.
+An image-captioning system in PyTorch combining a frozen VGG-16 image encoder with a trainable LSTM caption decoder.
 
 ## Current progress
 
@@ -9,7 +9,7 @@ An educational image-captioning project in PyTorch, planned around a frozen VGG-
 - Verified a forward pass on Apple Silicon using the PyTorch MPS backend.
 - Confirmed that a 224 x 224 input produces a 512 x 7 x 7 feature map and a 512-dimensional vector after spatial averaging.
 
-The caption dataset, decoder, training, and evaluation are not implemented yet. The notebook currently uses a dummy input to check tensor dimensions; no captioning results are claimed.
+Status: in development. Encoder loading and GPU execution are verified; data preparation, decoder training, and evaluation are the next milestones.
 
 ## Setup
 
